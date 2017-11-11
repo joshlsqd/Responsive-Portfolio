@@ -1,0 +1,137 @@
+html {
+	margin-top: -20px;
+	padding: 0px;
+}
+body {
+	background: radial-gradient(circle, lightblue, white);
+	margin: 0px;
+	padding: 0px;
+}
+section {
+	flex-wrap: wrap;
+	flex-flow: column;
+	align-items: space-around;
+    align-content: flex-start;
+	background: #ffffff;
+	margin: 15px;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 3px solid lightgrey;
+	line-height: 50px;
+}
+h2 {
+	text-align: center;
+	border-bottom: 3px solid lightgrey;
+	line-height: 50px;
+}
+iframe {
+	flex: 3;
+	display: block;
+	margin: 0 auto;
+}
+aside {
+	flex: 3;
+	background: #ffffff;
+	margin: 15px;
+
+}
+
+footer {
+	background: black;
+	color: white;
+	border-top: 3px solid #4aaaa5;
+	line-height: 50px;
+	text-align: center;
+}
+.header {
+	background: #ffffff;
+	border-color: #cccccc;
+	border-bottom: 3px solid lightgrey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100px;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.name {
+	background: #4aaaa5;
+	flex: 4;
+	height: 100px;
+	line-height: 100px;
+	color: #ffffff;
+	margin: 0px;
+}
+.section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.section1 {
+	flex: 5;
+}
+.aboutMe {
+	 flex: 1;
+}
+.paragraph {
+	flex: 2;
+	flex-wrap: wrap;
+	padding: 10px;
+} 
+.image {
+	
+}
+.space1 {
+	flex: 2;
+}
+.space2 {
+	flex: 5;
+}
+.topnav {
+    background-color: #ffffff;
+   	flex-grow: 1;
+   	text-align: center;
+    font-size: 16px;
+    color: #4aaaa5;
+    line-height: 150px;
+    text-decoration: none;
+}
+
+
+/* Style the links inside the navigation bar */
+
+    
+
+/* Change the color of links on hover */
+.topnav:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav:active {
+    background-color: #4aaaa5;
+    color: white;
+}
+.topnav:focus {
+    background-color: lightgray;
+    color: white;
+}
+
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  flex: 1;
+  justify-content: space-between;
+}
